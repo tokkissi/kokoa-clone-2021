@@ -6,6 +6,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   border-top: var(--grey-line);
+  z-index: 1;
 }
 
 .nav__list {

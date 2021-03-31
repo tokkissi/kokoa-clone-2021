@@ -10,6 +10,7 @@
   opacity: 0.9;
   font-size: 20px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .status-bar__column {

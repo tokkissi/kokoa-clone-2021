@@ -1,0 +1,15 @@
+.setting__contents {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.setting__contents-column {
+  font-size: 25px;
+  padding: 25px 5px;
+}
+
+.setting__contents-column i {
+  margin-right: 30px;
+  font-size: 25px;
+}
