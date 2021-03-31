@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - KakaoTalk</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__tools">
+            <div class="screen-header__icon">
+                <i class="fas fa-search fa-2x"></i>
+            </div>
+            <div class="screen-header__icon">
+                <i class="fas fa-music fa-2x"></i>
+            </div>
+            <div class="screen-header__icon">
+                <a href="setting.html">
+                    <i class="fas fa-cog fa-2x"></i>
+                </a>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-screen more-screen">
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar--xl"
+                    src="https://upload3.inven.co.kr/upload/2020/12/31/bbs/i014750817864.gif" alt="avatar">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Ik-Myeong</h4>
+                    <h6 class="user-component__subtitle">+ tok tok tokki
+                        <i class="fas fa-exclamation-circle user-component__subtitle-exclamation" ></i>
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column user-right-comment">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar-alt"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon icon-row__talk-drive">
+                <i class="far fa-folder-open"></i>
+                <div class="dot"></div>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-grin-wink"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-palette"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Accout</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-comments"></i>
+                <span>Openchat</span>
+            </div>
+
+        </div>
+
+        <div class="more-suggeestions">
+            <h4 class="more-suggestions__title">Suggeestions</h4>
+            <div class="more-suggestions__apps">
+                <div class="more-suggestions__icon">
+                    <img src="https://lh3.googleusercontent.com/proxy/2iI2wH5GvqZ7PjKQ9VTviOaasi5jKaJgVGrxpC0V8ZdmY3_f3rH8KgMZ8b5IxG2xq7_tQHe_inspKq5L7HyE05t4TO2RotGEBv_fXg0ubt8TkVcrJXKOfBfOWxsSIhZtBhmPszYc1L2I22DVgCgKsbBz0lnjzMGg1_kQUJzXFC6DDXFzoxAXd2l-meCX-cdzN39g" alt="kakao-story-logo">
+                    <span>Kakao Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="data:image/png;base64,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" alt="kakao-map-logo">
+                    <span>Kakao Map</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="http://img.newspim.com/news/2017/06/30/1706301817146390.jpg" alt="kakao-taxi-logo">
+                    <span>Kakao Taxi</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="https://t1.daumcdn.net/cfile/tistory/997BD7335D089C3023" alt="kakao-bank-logo">
+                    <span>Kakao Bank</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Kakao_page_logo.png" alt="kakao-page-logo">
+                    <span>Kakao Page</span>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x">
+                    </i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link nav__comment-icon" href="chats.html">
+                    <span class="nav__notification badge">
+                        1
+                    </span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x">
+                    </i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link nav__ellipsis-icon" href="more.html">
+                    <div class="nav__notification dot">
+                    </div>
+                    <i class="fas fa-ellipsis-h fa-2x">
+                    </i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

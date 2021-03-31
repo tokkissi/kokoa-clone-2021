@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: var(--grey-line);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2f363e;
+}
+
+.nav__comment-icon {
+  position: relative;
+}
+
+.nav__link .badge {
+  top: -18px;
+  right: -10px;
+  position: absolute;
+}
+
+.nav__ellipsis-icon {
+  position: relative;
+}
+
+.nav__link .dot {
+  top: -18px;
+  right: -10px;
+  position: absolute;
+}
