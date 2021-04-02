@@ -1,0 +1,134 @@
+.chat-screen {
+  background-color: #abc1d1;
+}
+
+.chat-status-bar,
+.chat-header {
+  background-color: #abc1d1;
+}
+
+.chat__timestamp {
+  display: flex;
+  justify-content: center;
+}
+
+.chat__timestamp-day {
+  background-color: #92a4b2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.message-row__own {
+  justify-content: flex-end;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin-right: 10px;
+}
+
+.message__author {
+  display: block;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 8px;
+}
+
+.message__time {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.message-row__own .message__bubble {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-left: 8px;
+  background-color: var(--yellow);
+  order: 1;
+}
+
+.message-row__own .message__time {
+  order: 0;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--grey-font-6);
+  background-color: white;
+  padding: 3px 20px;
+  box-sizing: border-box;
+}
+
+.reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.reply__column:last-child input {
+  width: 100%;
+  border: var(--grey-line);
+  border-radius: 30px;
+  padding: 13px;
+  font-size: 18px;
+}
+
+.reply__column:last-child > i,
+.reply__column button {
+  position: absolute;
+}
+
+.reply__column:last-child > i {
+  right: 70px;
+  top: 10px;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  right: 5px;
+  top: 5px;
+}
+
+.reply__column button:active,
+.reply__column button:focus {
+  outline: none;
+}

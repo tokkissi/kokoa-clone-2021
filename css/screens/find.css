@@ -100,3 +100,22 @@
 .open-post__heart-count i {
   margin: 3px;
 }
+
+@keyframes heart-beat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(3);
+    color: #ff6229;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  /* will-change 시 애니메이션 성능이 향상될 수 있으나 본 페이지에서는 랜더링 뭉개져 안씀*/
+  /* will-change: transform; */
+  animation: heart-beat 1s ease-in-out infinite;
+}

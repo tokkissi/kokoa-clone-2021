@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - KakaoTalk</title>
+</head>
+
+<body class="chat-screen">
+
+    <!-- 파란색 배경 미 적용시, Chat.css 가 user-components.css 아래에 위치하였는지 확인 -->
+    <div class="status-bar chat-status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- 파란색 배경 미 적용시, Chat.css 가 user-components.css 아래에 위치하였는지 확인 -->
+    <header class="screen-header chat-header">
+        <div class="screen-header__column  screen-header__chevron" onclick="history.go(-1)">
+            <i class="fas fa-chevron-left fa-2x"></i>
+        </div>
+        <div class="screen-header__column setting-header__title">
+            <h1 class="screen-header__title">Tab-Myeong</h1>
+        </div>
+        <div class="screen-header__column">
+            <div class="screen-header__icon">
+                <i class="fas fa-search fa-2x"></i>
+            </div>
+            <div class="screen-header__icon">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-screen chat-screen">
+
+
+        <div class="chat__timestamp">
+            <span class="chat__timestamp-day"> Thursday, April 01, 2021 </span>
+        </div>
+
+
+        <div class="message-row">
+            <img src="https://upload3.inven.co.kr/upload/2020/09/25/bbs/i014388221704.gif" alt="message-avatar">
+            <div class="message-row__content">
+                <span class="message__author">Tab-Myeong</span>
+                <div class="message__info">
+                    <span class="message__bubble">tab tab tab</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">tab tab tab</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="write a message">
+            <i class="far fa-laugh fa-2x"></i>
+            <button>
+                <i class="fas fa-arrow-up fa-2x"></i>
+            </button>
+        </div>
+
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

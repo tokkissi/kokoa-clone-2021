@@ -26,44 +26,44 @@
     </div>
 
     <header class="screen-header">
-        <div class="screen-header__icon">
-            <i class="fas fa-chevron-left fa-2x"></i>
+        <div class="screen-header__column screen-header__chevron" onclick="history.go(-1)">
+                <i class="fas fa-chevron-left fa-2x"></i>
         </div>
-        <div class="screen-header__icon">
+        <div class="screen-header__column setting-header__title">
             <h1 class="screen-header__title">Settings</h1>
         </div>
-        <div class="screen-header__tools">
+        <div class="screen-header__column">
             <div class="screen-header__icon">
                 <i class="fas fa-search fa-2x"></i>
             </div>
         </div>
     </header>
 
-<main class="main-screen more-screen">
-    <ul class="setting-lists">
-        <li class="setting__contents">
-            <div class="setting__contents-column">
-                <i class="fas fa-bullhorn"></i>
-                <span>Notices</span>
-            </div>
-            <div class="setting__contents-column"></div>
-        </li>
-        <li class="setting__contents">
-            <div class="setting__contents-column">
-                <i class="fas fa-flask"></i>
-                <span>Kakao Lab</span>
-            </div>
-            <div class="setting__contents-column"></div>
-        </li>
-        <li class="setting__contents">
-            <div class="setting__contents-column">
-                <i class="fas fa-info-circle"></i>
-                <span>Version</span>
-            </div>
-            <div class="setting__contents-column"></div>
-        </li>
-    </ul>
-</main>
+    <main class="main-screen more-screen">
+        <ul class="setting-lists">
+            <li class="setting__contents">
+                <div class="setting__contents-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="setting__contents-column"></div>
+            </li>
+            <li class="setting__contents">
+                <div class="setting__contents-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kakao Lab</span>
+                </div>
+                <div class="setting__contents-column"></div>
+            </li>
+            <li class="setting__contents">
+                <div class="setting__contents-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="setting__contents-column">Latest Version</div>
+            </li>
+        </ul>
+    </main>
 
     <nav class="nav">
         <ul class="nav__list">
@@ -97,6 +97,7 @@
             </li>
         </ul>
     </nav>
+
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 

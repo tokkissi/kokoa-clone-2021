@@ -13,3 +13,7 @@
   margin-right: 30px;
   font-size: 25px;
 }
+
+.setting__contents-column:last-child {
+  opacity: 0.5;
+}

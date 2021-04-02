@@ -9,6 +9,7 @@
 .more-suggestions__title {
   margin: 30px 0px;
   font-size: 17px;
+  font-weight: 600;
 }
 
 .more-suggestions__apps {
