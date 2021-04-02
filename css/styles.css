@@ -9,6 +9,7 @@
 @import "components/user-component.css";
 @import "components/notice.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 /* chat.css 는 반드시 components그룹 아래에 위치할것 */
