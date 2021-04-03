@@ -195,5 +195,5 @@
 
 .reply:focus-within input {
   width: 95vw;
-  transform: translateY(-80px);
+  transform: translateY(-80px) translateX(-2%);
 }
